@@ -1,0 +1,97 @@
+body {
+    background-color: #ec7476;
+    background-image: url("./images/pattern\ background.jpeg");
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.25;
+    margin-bottom: 1.6rem;
+}
+
+.h1class {
+    color: white;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+    padding: 10rem 15rem;
+}
+
+.cta {
+    background-color: hsl(248, 32%, 49%);
+    margin: 2rem;
+    padding: .5rem 3rem;
+    text-align: center;
+}
+
+.form {
+    background-color: azure;
+    padding: 2rem;
+}
+
+
+.round-edges {
+    border-radius: 1rem;
+}
+
+.round-corners {
+    border-radius: 1rem;
+}
+
+.container-shadow {
+    box-shadow: 0 1rem rgb(0, 0, 0, 0.1);
+}
+
+.form-container {
+    display: grid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form>input {
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+form>input:focus {
+    border: 1px solid black;
+}
+
+form>input:last-child {
+    background-color: hsl(154, 59%, 51%);
+    text-align: center;
+}
+
+.page-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-text>p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.terms {
+    font-size: 0.75rem;
+    color: lightgrey;
+    text-align: center;
+}
+
+.terms>strong {
+    color: hsl(0, 100%, 74%);
+}
